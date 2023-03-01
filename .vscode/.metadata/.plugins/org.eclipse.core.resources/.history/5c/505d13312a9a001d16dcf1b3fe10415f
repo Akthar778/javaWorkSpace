@@ -1,0 +1,22 @@
+package com.StringPractice;
+import java.util.Scanner;
+
+public class evenoddd {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter size of the array");
+		int size = sc.nextInt();
+		
+		
+		//array creation
+		int arrays []=new int [size];
+		for (int i=0;i<=arrays.length;i++) {
+            int a= sc.nextInt()	;
+			System.out.println(arrays[i]);
+		}
+		
+
+	}
+
+}
